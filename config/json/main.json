@@ -1,0 +1,10 @@
+{
+	"charset" : "utf-8",
+	"modules" : {
+		"marketplace" : {
+			"charset": 		"utf8",
+			"database":		"marketplace",
+			"tablePrefix": 	"tbl_"
+		}
+	}
+}

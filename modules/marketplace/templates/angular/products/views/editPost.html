@@ -1,0 +1,47 @@
+<h2>Edit post</h2>
+<form name="myForm">
+	<label for="title">Title </label>
+	<input ng-model="form.title" name="title"/>
+
+	<label for="alias">Alias </label>
+	<input ng-model="form.title" name="alias"/>
+
+	<label for="categorySelect">Category </label>
+	<select name="categorySelect" id="categorySelect" ng-model="data.repeatSelect">
+		<option ng-repeat="option in data.availableOptions" value="{{option.id}}">{{option.name}}</option>
+	</select>
+
+	<label for="partnerSelect">Partner ID </label>
+	<select name="partnerSelect" id="partnerSelect" ng-model="data.repeatSelect">
+		<option ng-repeat="option in data.availableOptions" value="{{option.id}}">{{option.name}}</option>
+	</select>
+
+	<label for="reviewProductId">Review Product ID </label>
+	<input ng-model="form.title" name="reviewProductId" id="reviewProductId"/>
+
+	<label for="Products_icon">Icon </label>
+	<input id="Products_icon" type="file" name="Products_icon">
+	<img ng-src="template" alt="Description"/>
+
+	<label for="listPrice">List Price </label>
+	<input ng-model="form.title" name="listPrice" id="listPrice"/>
+
+	<label for="price">Price </label>
+	<input ng-model="form.title" name="price" id="price"/>
+
+	<label for="Products_price_free">Price Free</label>
+	<input id="Products_price_free" type="checkbox" value="1" name="Products_price_free">
+
+	<label for="title">Title: </label>
+	<input ng-model="form.title" name="title"/>
+
+	<label for="title">Title: </label>
+	<input ng-model="form.title" name="title"/>
+
+	<label for="Products_price_free">Price Free</label>
+	<input id="Products_price_free" type="checkbox" value="1" name="Products[price_free]">
+
+	<label for="title">Title: </label>
+	<input ng-model="form.title" name="title"/>
+
+</form>

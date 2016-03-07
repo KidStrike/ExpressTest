@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<base href="/">
+		<title>Marketplace</title>
+		<link rel="stylesheet" href="marketplace/css/app.css">
+
+		<script src="marketplace/angular/lib/angular/angular.js"></script>
+		<script src="marketplace/angular/lib/angular/angular-ui-router.js"></script>
+		<script src="marketplace/angular/lib/angular/angular-route.js"></script>
+		<script src="marketplace/angular/lib/angular/angular-resource.js"></script>
+
+		<script src="marketplace/angular/marketplace-module.js"></script>
+		<script src="marketplace/angular/marketplace-controller.js"></script>
+
+		<script src="marketplace/angular/api/api-module.js"></script>
+		<script src="marketplace/angular/api/api.js"></script>
+
+		<script src="marketplace/angular/partners/partners-module.js"></script>
+		<script src="marketplace/angular/partners/partners-controller.js"></script>
+		<script src="marketplace/angular/partners/partners-directive.js"></script>
+
+		<script src="marketplace/angular/products/products-module.js"></script>
+		<script src="marketplace/angular/products/products-controller.js"></script>
+		<script src="marketplace/angular/products/products-directive.js"></script>
+	</head>
+	<body ng-app="Marketplace" ng-controller="MarketplaceController">
+
+	<a href="" ng-click="getPartners()">Partners</a>||<a href="" ng-click="getProducts()">Products</a>
+
+	<div ng-switch on="insert_module">
+
+		<products ng-switch-when="Products"></products>
+
+		<partners ng-switch-when="Partners"></partners>
+
+		<partners ng-switch-default></partners>
+
+	</div>
+
+	</body>
+</html>

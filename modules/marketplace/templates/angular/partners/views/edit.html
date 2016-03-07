@@ -1,0 +1,24 @@
+<h2>Edit partner {{partners.title}}</h2>
+<form novalidate ng-submit="submit()" name="partner">
+	<label for="title">Title</label>
+	<input type="text" ng-model="partners.title" name="title" id="title"/><br />
+
+	<label for="alias">Alias</label>
+	<input type="text" ng-model="partners.alias" name="alias" id="alias"/><br />
+
+	<label for="reviewCompanyId">Review Company ID</label>
+	<input type="number" ng-model="partners.review_company_id" min="100000000" max="999999999" step="1" name="reviewCompanyId" id="reviewCompanyId"/><br />
+
+	<label for="titlePhrase">Phrase Under the Title</label>
+	<input type="text" ng-model="partners.title_phrase" name="titlePhrase" id="titlePhrase"/><br />
+
+	<label for="Products_icon">Icon</label>
+	<input type="file" ng-model="partners.icon" id="Products_icon" name="Products_icon" />
+	<img ng-src="template"/><br />
+
+	<label for="published">Published</label>
+	<input type="checkbox" ng-model="partners.is_published" name="published" id="published" /><br />
+
+	<input type="submit" value="Save" />
+
+</form>

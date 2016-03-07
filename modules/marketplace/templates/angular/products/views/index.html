@@ -1,0 +1,7 @@
+<p>There are {{partners.length}} partners</p>
+<div ng-repeat="partner in partners">
+	<div>{{partner.partner_id}}</div>
+	<div>{{partner.title}}</div>
+	<a href='' ng-click="switchAction('viewPost', partner.partner_id)">More</a> - <a href='' ng-click="switchAction('editPost', partner.partner_id)">Edit</a> - <a href='' ng-click="switchAction('deletePost', partner.partner_id)">Delete</a>
+	</br></br>
+</div>

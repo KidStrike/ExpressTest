@@ -1,0 +1,12 @@
+<div ng-controller="PartnersController">
+	<div>
+		<h2>Marketplace partners</h2>
+		<ul>
+			<li><a href='' ng-click="switchAction('index')">Home</a></li>
+			<li><a href='' ng-click="switchAction('add')">Add new partner</a></li>
+		</ul>
+	</div>
+
+	<div ng-model="partialUrl" ng-include="partialUrl ? partialUrl : switchAction('index')"></div>
+
+</div>

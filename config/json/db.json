@@ -1,0 +1,75 @@
+{
+    "MainDbConfig": {
+        "beta.gmatclub.com": {
+            "host": "localhost",
+            "user": "php",
+            "pass": "php",
+            "db": {
+                "gmatclub": "design_gmatclub",
+                "forum": "beta_bb3",
+                "wordpress": "gmatclub_wordpress_design",
+                "reviews": "design_reviews",
+                "fb_events": "design_fb_events",
+                "phplist": "phplist",
+                "greclub": "gre_design_bb3",
+                "tests": "beta",
+                "tests_unn": "beta_unnon",
+                "marketplace": "beta_marketplace",
+                "deployment": "design_gmatclub"
+            }
+        },
+        "design.gmatclub.com": {
+            "host": "localhost",
+            "user": "php",
+            "pass": "php",
+            "db": {
+                "gmatclub": "design_gmatclub",
+                "forum": "design_bb3",
+                "wordpress": "gmatclub_wordpress_design",
+                "reviews": "design_reviews",
+                "fb_events": "design_fb_events",
+                "phplist": "phplist",
+                "greclub": "gre_design_bb3",
+                "tests": "design_tests_new",
+                "tests_unn": "design_tests_annon",
+                "marketplace": "design_marketplace"
+            }
+        },
+        "gmatclub.com": {
+            "host": "localhost",
+            "user": "php",
+            "pass": "php",
+            "db": {
+                "gmatclub": "gmatclub",
+                "forum": "bb3",
+                "wordpress": "gmatclub_wordpress",
+                "reviews": "gmatclub_reviews",
+                "fb_events": "fb_events",
+                "phplist": "phplist",
+                "greclub": "greprepclub_bb3",
+                "tests": "gmatclub_tests_v3",
+                "tests_unn": "gmatclub_tests_unnon_v3",
+                "marketplace": "gmatclub_marketplace",
+                "deployment": "gmatclub"
+            }
+        },
+        "local.beta.gmatclub.com": {
+            "host": "127.0.0.1",
+            "user": "php",
+            "pass": "php",
+            "db": {
+                "gmatclub": "design_gmatclub",
+                "forum": "beta_bb3",
+                "wordpress": "gmatclub_wordpress",
+                "reviews": "design_reviews",
+                "fb_events": "design_fb_events",
+                "phplist": "phplist",
+                "greclub": "localgereprep",
+                "tests": "beta",
+                "tests_unn": "beta_unnon",
+                "marketplace": "beta_marketplace",
+                "deployment": "deployment"
+            }
+        }
+    }
+}
